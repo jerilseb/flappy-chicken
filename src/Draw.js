@@ -1,12 +1,9 @@
 function draw() {
     facebook = document.getElementById('facebook');
 
-    // collider[0].draw(context, 0, 0);
-    // collider[1].draw(context, 0, 0);
-    // collider[2].draw(context, 0, 0);
-    // collider[3].draw(context, 0, 0);
-    // collider[4].draw(context, 0, 0);
-    // collider[5].draw(context, 0, 0);
+    for(let i=0; i<NUM_OBSTACLES; i++) {
+        collider[i].draw(context, 0, 0);
+    }
 
     chicken_sprite[0].draw(context, 0, 0);
     chicken_sprite[1].draw(context, 0, 0);
