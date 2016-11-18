@@ -6,5 +6,5 @@ function socialScoreShare() {
     title = chicken.score + ' points!!!';
     description = 'I just scored ' + chicken.score + ' points on Flappy Chicken. Can you beat it? #flappychicken';
 
-    window = window.open('https://www.facebook.com/dialog/share?app_id=998325273610775&href=https://jerilseb.github.io/flappy-chicken/&picture=https://jerilseb.github.io/flappy-chicken/src/sprites/thumbnail.png&title=' + title + '&caption=' + caption + '&description=' + description + '&hashtag=#flappychicken', '_blank', 'width=250, height=250, top=' + top + ', left=' + left);
+    window = window.open('https://www.facebook.com/dialog/share?app_id=9865734934773434&href=https://jerilseb.github.io/flappy-chicken/&picture=https://jerilseb.github.io/flappy-chicken/src/sprites/thumbnail.png&title=' + title + '&caption=' + caption + '&description=' + description + '&hashtag=#flappychicken', '_blank', 'width=250, height=250, top=' + top + ', left=' + left);
 }
