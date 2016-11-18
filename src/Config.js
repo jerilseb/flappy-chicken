@@ -30,7 +30,7 @@ var OBSTACLE_HEIGHTS = [93, 155, 78, 101, 101, 120, 78, 65];
 var OBSTACLE_PATHS = [
 	"src/sprites/Sign_2.png",
 	"src/sprites/tree.png",
-	"src/sprites/stone.png",
+	"src/sprites/Stone.png",
     "src/sprites/Crate.png",
 	"src/sprites/IceBox.png",
     "src/sprites/SnowMan.png",
