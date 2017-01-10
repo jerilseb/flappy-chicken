@@ -5,7 +5,7 @@ Play here https://jerilseb.github.io/flappy-chicken/
 
 ## Screenshot
 
-![screenshot](https://user-images.githubusercontent.com/3944720/31861505-fab53434-b74b-11e7-9614-74884db79b9a.gif)
+![screenshot](https://user-images.githubusercontent.com/3944720/31861658-cd623b50-b74e-11e7-90e9-af391c51852d.gif)
 
 
 ## Resource Credits
