@@ -1,8 +1,8 @@
 function drawSoundControl() {
-    let soundEnabledText = !soundEnabled ? sounds.disableSounds.enableText : sounds.disableSounds.disableText;
+    let soundImage = !soundEnabled ? sound_off : sound_on;
     context.fillStyle = "#fcfcfc";
     context.font = "25px Arial";
 
-    context.fillText(soundEnabledText, 420, 35);
+    soundImage.draw(context, 540, 20);
     context.restore();
 }

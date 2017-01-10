@@ -16,7 +16,9 @@ let background_sprite = new Sprite(0, 0, 1008, 500, "src/sprites/background.png"
     menu_sprite = new Sprite(0, 0, 212, 66, "src/sprites/main-menu.png"),
     sand = new Sprite(0, 0, 128, 128, "src/sprites/land.png"),
     chicken_sprite = [], 
-    collider = [];
+    collider = [],
+    sound_on = new Sprite(0, 0, 45, 45, "src/sprites/unmute.png"),
+    sound_off = new Sprite(0, 0, 45, 45, "src/sprites/mute.png");
 
 for (let i=0; i<NUM_OBSTACLES; i++) {
     collider[i] = new Sprite(0, 0, OBSTACLE_WIDTHS[i], OBSTACLE_HEIGHTS[i], OBSTACLE_PATHS[i]);
